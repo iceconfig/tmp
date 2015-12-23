@@ -7,7 +7,7 @@ chatServer.on('connection',function(client){
     client.write('Hi!\n');
 
     client.on('data',function(data){
-        console.log(data;)
+        console.log(data);
     })
     //client.write('Bye!\n');
     //client.end();
